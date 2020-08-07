@@ -1,0 +1,43 @@
+body{
+background: #4AC29A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#myCarousel{
+
+	margin-right: 120px;
+	margin-left: 120px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.container form{
+
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.container-fluid img{
+	
+	width:100%
+}
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+
+

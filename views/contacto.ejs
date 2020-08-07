@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>MECA Agency</title>
+	<!--incluir el archivo head de partials-->
+	<%- include ('partials/head')%>
+</head>
+<body>
+	<!--incluir el archivo nagation de partials-->
+	<%- include ('partials/navigation') %>
+
+	<div class="container p-5">
+  <div class="jumbotron mt-4">
+  
+  <!--Section: Contact v.1-->
+    <section class="section pb-5">
+  <!--Section heading-->
+    <h2 class="display-4">Conócenos</h2>
+  <!--Section description-->
+    <p class="lead">Mandanos un mensaje y te solucionaremos cualquier duda que tengas con los servicios que ofrecemos, ademas te mostramos nuestra hubicación.</p>
+    <hr class"my-4">
+    <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-5 mb-4">
+
+      <!--Form with header-->
+      <div class="card">
+
+       <div class="card animate__bounceIn">
+          <div class="card-header bg-dark text-white text-center">
+            <h3>Contáctame</h3>
+          </div>
+          <div class="card-body"></div>
+          <form action="#">
+            <div class="form-group">
+              <input class="form-control" type="text" placeholder="Nombre Completo " autofocus="autofocus" required>
+            </div>
+
+            <div class="form-group">
+              <input class="form-control" type="number" placeholder="Edad" required>
+            </div>
+
+            <div class="form-group">
+              <input class="form-control" type="Email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input class="form-control" type="tel" placeholder="Télefono" maxlength="10" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary btn-block">Enviar</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+      <!--Form with header-->
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      <!--Google map-->
+      <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.807606894226!2d-99.17680158551633!3d19.420716986891026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff4f41e8e42d%3A0x28553c0a79468b88!2spiso%204%2C%20Av%20Chapultepec%20536%2C%20Roma%20Nte.%2C%2006700%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1594079587879!5m2!1ses!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+
+      <br>
+      <!--Buttons-->
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+          <p> Av. Chapultepec 536, piso 4.
+
+        Col. Roma, Cuauhtémoc. C.P. 06700
+
+          </p>
+          <p>CDMX – México</p>
+        </div>
+
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+          <p> +52 (55) 2489 0570 </p>
+          <p>Lunes a Viernes, 8:00-17:00</p>
+        </div>
+
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+          <p>Contáctanos por Facebook Messenger</p>
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+
+</section>
+</div>
+</div>
+<!--Section: Contact v.1-->
+	<!--incluir el archivo footer de partials-->
+	<%- include ('partials/footer')%>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
